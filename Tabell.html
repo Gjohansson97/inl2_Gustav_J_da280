@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabell</title>
+    <style> 
+        table, tr, td, thead 
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+        
+    </style> <!--Lagt till style för att få linjer runt alla rader/kolummer-->
+</head>
+<body>
+    <!--table tagg för att göra en tabell-->
+    <table>
+        <!--Caption för huvudrubrik till hemsidan-->
+    <caption>Inlämningsuppgift 2</caption>
+    <!--Använder thead med th för att skapa huvudrubriker, vad varje rad ska handla-->
+    <thead>
+        <th>Artist/Band</th> <!--Första rubriken-->
+        <th>Album</th> <!--Andra rubriken-->
+        <th>Omslag</th> <!--Tredje rubriken-->
+        <th>Medlemmar</th> <!--Fjärde rubriken-->
+        <th>Nationalitet</th> <!--Femte rubriken-->
+        <th>Källa</th> <!--Sjätte rubriken-->
+
+    </thead>
+    <tbody>
+        <!--tr använder jag för att göra en rad om en artist
+        och i tr använder jag td för att skriva information i varje kollum så de hamnar rätt under varje th/tabellrubrik-->
+        <tr>
+        <td>Zara Larsson</td> <!--Kollum "artist/band"-->
+        <td>So Good</td> <!--Kollum "Album"-->
+        <td><img src="Zara.gif" alt="Bild på omslaget" style="width: 150px; height: 150px;"></td> <!--Kollum "Omslag" med bild och med hjälp av style justerat storleken-->
+        <td>Zara Larsson</td> <!--Kollum "Medlemmar"-->
+        <td>Sverige</td> <!--Kollum "Nationalitet"-->
+        <td><a href="https://sv.wikipedia.org/wiki/Zara_Larsson">Källa</a> <!--Kollum "Källa"-->
+        </td>
+    </tr>
+
+    <tr>
+        <td>Hov1</td> <!--Kollum "artist/band"-->
+        <td>Barn av vår tid</td> <!--Kollum "Album"-->
+        <td> <img src="Hov1.jpeg" alt="Bild på omslaget" style="width: 150px; height: 150px;"></td> <!--En bild med format .jpeg -->
+        <td>
+            Noel Flike <br> Ludwig Kronstrand <br> <!--Använt br för att få ett radbryt då jag tcyker det ser snyggare ut i tabellen-->
+            Axel Liljefors Jansson <br> Dante Lindhe</td> <!--Kollum "Medlemmar"-->
+        <td>Sverige</td> <!--Kollum "Nationalitet"-->
+        <td><a href="https://sv.wikipedia.org/wiki/Hov1#Studioalbum">Källa</a> <!--Kollum "Källa"-->
+        </td>
+    </tr>
+
+    <tr>
+        <td>Avicii</td> <!--Kollum "artist/band"-->
+        <td>Tim</td> <!--Kollum "Album"-->
+        <td><img src="Avicii.png" alt="Bild på omslaget" style="width: 150px; height: 150px;"></td> <!--Kollum "Omslag" med bild och med hjälp av style justerat storleken-->
+        <td>Tim Bergling</td> <!--Kollum "Medlemmar"-->
+        <td>Sverige</td> <!--Kollum "Nationalitet"-->
+        <td><a href="https://sv.wikipedia.org/wiki/Avicii">Källa</a></td> <!--Kollum "Källa"-->
+    </tr>
+    <tr>
+        <td>Norlie & KKV</td> <!--Kollum "artist/band"-->
+        <td>Se på oss</td> <!--Kollum "Album"-->
+        <td><img src="kkv.png" alt="Bild på omslaget" style="width: 150px; height: 150px;"></td> <!--Kollum "Omslag" med bild och med hjälp av style justerat storleken-->
+        <td>Ken Kim Vadenhag <br>Sonny Fahlberg</td> <!--Kollum "Medlemmar"-->
+        <td>Sverige</td> <!--Kollum "Nationalitet"-->
+        <td><a href="https://sv.wikipedia.org/wiki/Norlie_%26_KKV">Källa</a></td> <!--Kollum "Källa"-->
+    </tr>
+    <tr>
+        <td>Usher</td> <!--Kollum "artist/band"-->
+        <td>Confessions 2</td> <!--Kollum "Album"-->
+        <td><img src="Usher.png" alt="Bild på omslaget" style="width: 150px; height: 150px;"></td> <!--Kollum "Omslag" med bild och med hjälp av style justerat storleken-->
+        <td>Usher Raymond IV</td> <!--Kollum "Medlemmar"-->
+        <td>USA</td> <!--Kollum "Nationalitet"-->
+        <td><a href="https://sv.wikipedia.org/wiki/Usher">Källa</a></td> <!--Kollum "Källa"-->
+    </tr>
+    <tr>
+        <td>Eminem</td> <!--Kollum "artist/band"-->
+        <td>The Marshall Mathers LP2</td> <!--Kollum "Album"-->
+        <td><img src="Eminem.jpeg" alt="Bild på omslaget" style="width: 150px; height: 150px;"></td> <!--Kollum "Omslag" med bild och med hjälp av style justerat storleken-->
+        <td>Marshall Bruce Mathers III</td> <!--Kollum "Medlemmar"-->
+        <td>USA</td> <!--Kollum "Nationalitet"-->
+        <td><a href="https://sv.wikipedia.org/wiki/Eminem">Källa</a></td> <!--Kollum "Källa"-->
+    </tr>
+    <tr>
+        <td>50 cent</td> <!--Kollum "artist/band"-->
+        <td>Animal Ambition</td> <!--Kollum "Album"-->
+        <td><img src="50cent.jpeg" alt="Bild på omslaget" style="width: 150px; height: 150px;"></td> <!--Kollum "Omslag" med bild och med hjälp av style justerat storleken-->
+        <td>Curtis James Jackson III</td> <!--Kollum "Medlemmar"-->
+        <td>USA</td> <!--Kollum "Nationalitet"-->
+        <td><a href="https://sv.wikipedia.org/wiki/50_Cent">Källa</a></td> <!--Kollum "Källa"-->
+    </tr>
+    <tr>
+        <td>Beyonce</td> <!--Kollum "artist/band"-->
+        <td>Renaissance</td> <!--Kollum "Album"-->
+        <td><img src="beyonce.webp" alt="Bild på omslaget" style="width: 150px; height: 150px;"></td> <!--Kollum "Omslag" med bild och med hjälp av style justerat storleken-->
+        <td>Beyoncé Giselle Knowles</td> <!--Kollum "Medlemmar"-->
+        <td>USA</td> <!--Kollum "Nationalitet"-->
+        <td><a href="https://sv.wikipedia.org/wiki/Beyonc%C3%A9">Källa</a></td> <!--Kollum "Källa"-->
+    </tr>
+    <tr>
+        <td>Hollow Coves</td> <!--Kollum "artist/band"-->
+        <td>Nothing to lose</td> <!--Kollum "Album"-->
+        <td><img src="Hollowcoves.png" alt="" style="width: 150px; height: 150px;"></td> <!--Kollum "Omslag" med bild och med hjälp av style justerat storleken-->
+        <td>Ryan Henderson <br> Matt Carins</td> <!--Kollum "Medlemmar"-->
+        <td>Australien</td> <!--Kollum "Nationalitet"-->
+        <td><a href="https://en.wikipedia.org/wiki/Hollow_Coves#Members">Källa</a></td> <!--Kollum "Källa"-->
+    </tr>
+    <tr>
+        <td>AC/DC</td> <!--Kollum "artist/band"-->
+        <td>Power Up</td> <!--Kollum "Album"-->
+        <td><img src="acdc.gif" alt="Bild på omslaget" style="width: 150px; height: 150px;"></td> <!--Kollum "Omslag" med bild och med hjälp av style justerat storleken-->
+        <td>Angus Young <br> Phil Rudd <br> <!--Använt br för att få ett radbryt då jag tcyker det ser snyggare ut i tabellen-->
+            Cliff Williams <br> Brians Johnson <br>
+            Stevie Young</td> <!--Kollum "Medlemmar"-->
+        <td>Australien</td> <!--Kollum "Nationalitet"-->
+        <td><a href="https://sv.wikipedia.org/wiki/AC/DC">Källa</a></td> <!--Kollum "Källa"-->
+    </tr>
+    
+
+    </tbody>
+    </table>
+    
+    
+    
+</body>
+</html>
